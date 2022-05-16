@@ -7,6 +7,7 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Repository;
 
 import es.urjc.sd.p2.User;
 
@@ -14,6 +15,7 @@ import es.urjc.sd.p2.User;
 /**
  * Interface to make use of the database with User objects
  */
+@Repository
 public interface UserRepository extends JpaRepository<User, Integer>{
     /**
      * Query to search all the users in the database.
