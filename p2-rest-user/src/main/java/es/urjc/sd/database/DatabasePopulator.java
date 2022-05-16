@@ -41,16 +41,11 @@ public class DatabasePopulator {
         User u4 = new User("zjfbvkj", n4);
         User u5 = new User("re834r7u", n5);
 
-        /*repo.save(u1.getIdentifier(), u1);
+        repo.save(u1.getIdentifier(), u1);
         repo.save(u2.getIdentifier(), u2);
         repo.save(u3.getIdentifier(), u3);
         repo.save(u4.getIdentifier(), u4);
-        repo.save(u5.getIdentifier(), u5); */
-        repo.save(u1);  
-        repo.save(u2); 
-        repo.save(u3); 
-        repo.save(u4); 
-        repo.save(u5); 
+        repo.save(u5.getIdentifier(), u5); 
     }
 
     
